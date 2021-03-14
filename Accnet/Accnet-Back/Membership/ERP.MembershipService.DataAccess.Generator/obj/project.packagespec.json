@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/ERP.MembershipService.DataAccess.Generator.csproj",
+    "projectName": "ERP.MembershipService.DataAccess.Generator",
+    "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/ERP.MembershipService.DataAccess.Generator.csproj",
+    "outputPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohammad/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

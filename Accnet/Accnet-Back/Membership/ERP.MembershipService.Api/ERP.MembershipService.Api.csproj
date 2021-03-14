@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <AssemblyName>ERP.MembershipService.Api</AssemblyName>
+        <RootNamespace>ERP.MembershipService.Api</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\ERP.MembershipService.Api.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\ERP.MembershipService.Api.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Logs" />
+        <Folder Include="wwwroot\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="AutoMapper" Version="9.0.0" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ERP.MembershipService.Business\ERP.MembershipService.Business.csproj" />
+        <ProjectReference Include="..\ERP.MembershipService.Core\ERP.MembershipService.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+        </Reference>
+        <Reference Include="ERP.CoreService.ApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\..\erp-libs\ERP.CoreService.ApiClient.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+
+</Project>

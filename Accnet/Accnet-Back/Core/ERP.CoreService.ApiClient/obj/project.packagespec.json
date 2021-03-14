@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient/ERP.CoreService.ApiClient.csproj",
+    "projectName": "ERP.CoreService.ApiClient",
+    "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient/ERP.CoreService.ApiClient.csproj",
+    "outputPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "PdfSharpNetStandard": {
+          "target": "Package",
+          "version": "[0.0.14, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

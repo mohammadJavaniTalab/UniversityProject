@@ -1,0 +1,80 @@
+{
+  "errors": [],
+  "warnings": [
+    "./node_modules/gatsby-core-utils/dist/get-gatsby-version.js 12:11-95\nCritical dependency: the request of a dependency is an expression\n @ ./node_modules/gatsby-core-utils/dist/index.js\n @ ./node_modules/gatsby-plugin-manifest/gatsby-ssr.js\n @ ./.cache/api-runner-ssr.js\n @ ./.cache/develop-static-entry.js",
+    "./.cache/develop-static-entry.js\nModule not found: Error: Can't resolve '../src/html' in '/Users/saraazimi/Documents/Hamed/Accnet/accounting-support/.cache'\n @ ./.cache/develop-static-entry.js"
+  ],
+  "version": "4.42.1",
+  "hash": "9d890c8352745047704f",
+  "publicPath": "/",
+  "outputPath": "/Users/saraazimi/Documents/Hamed/Accnet/accounting-support/public",
+  "assetsByChunkName": {
+    "main": [
+      "render-page.js",
+      "render-page.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "render-page.js",
+      "size": 2498666,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "render-page.js.map",
+      "size": 2681691,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "render-page.js",
+        "render-page.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "render-page.js",
+        "render-page.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

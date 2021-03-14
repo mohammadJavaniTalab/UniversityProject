@@ -1,0 +1,11 @@
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.deps.json
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.runtimeconfig.json
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.runtimeconfig.dev.json
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.csprojAssemblyReference.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.AssemblyInfoInputs.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.AssemblyInfo.cs
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.MembershipService.DataAccess.Generator.csproj.CoreCompileInputs.cache

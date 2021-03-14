@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj": {}
+  },
+  "projects": {
+    "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj",
+        "projectName": "ERP.CoreService.DataAccess.Generator",
+        "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj",
+        "packagesPath": "/Users/mohamad/.nuget/packages/",
+        "outputPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohamad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "PdfSharpNetStandard": {
+              "target": "Package",
+              "version": "[0.0.14, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

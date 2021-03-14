@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeFrameworkVersion>2.1.12</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.11" />
+    <PackageReference Include="PdfSharpNetStandard" Version="0.0.14" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.CoreService.Core\ERP.CoreService.Core.csproj" />
+    <ProjectReference Include="..\ERP.CoreService.DataAccess.Generator\ERP.CoreService.DataAccess.Generator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EFModels" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/ERP.MembershipService.ApiClient.csproj": {}
+  },
+  "projects": {
+    "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/ERP.MembershipService.ApiClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/ERP.MembershipService.ApiClient.csproj",
+        "projectName": "ERP.MembershipService.ApiClient",
+        "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/ERP.MembershipService.ApiClient.csproj",
+        "packagesPath": "/Users/mohammad/.nuget/packages/",
+        "outputPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/mohammad/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohammad/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

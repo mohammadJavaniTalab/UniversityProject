@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.MembershipService.Core\ERP.MembershipService.Core.csproj" />
+    <ProjectReference Include="..\ERP.MembershipService.DataAccess\ERP.MembershipService.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\System" />
+    <Folder Include="Interfaces\System" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ERP.CoreService.ApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\ERP.CoreService.ApiClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

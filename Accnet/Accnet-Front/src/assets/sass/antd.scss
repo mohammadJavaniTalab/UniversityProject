@@ -1,0 +1,150 @@
+@import "./themes/light-themes.scss";
+.ant-select {
+  .ant-select-selection--single {
+    height: 45px;
+    border-radius: 0;
+    border-radius: 2px;
+  }
+  .ant-select-selection__rendered {
+    line-height: 43px;
+  }
+  &.ant-select-open {
+    .ant-select-selection {
+      border-color: rgba(47, 68, 145, 0.6);
+      box-shadow: none;
+    }
+  }
+  .ant-select-selection {
+    &:hover {
+      border-color: #fd6b38;
+    }
+  }
+}
+
+.ant-table-wrapper {
+  overflow-x: auto;
+}
+
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled),
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: $theme-color-1 !important;
+  color: $button-text-color;
+}
+
+.ant-select-dropdown-menu {
+  &::-webkit-scrollbar {
+    background-color: $foreground-color;
+    width: 12px;
+    height: 12px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $separator-color;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: $theme-color-1;
+  }
+  &::-webkit-scrollbar-thumb:active {
+    background-color: darken($theme-color-1, 5%);
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: $foreground-color;
+  }
+}
+.ant-modal-header {
+  background-color: $theme-color-1 !important;
+  * {
+    color: $button-text-color !important;
+  }
+}
+.ant-modal-close svg {
+  fill: $button-text-color !important;
+}
+
+.ant-notification {
+  z-index: 2000 !important;
+}
+
+//======= Calendar & Time ==============
+.modal-time-picker {
+  border: 1px solid $theme-color-1;
+  background-color: $background-color;
+  .ant-fullcalendar-calendar-body {
+    padding: 5px 10px;
+  }
+}
+.ant-fullcalendar-selected-day .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value {
+  background-color: $theme-color-1 !important;
+  &:hover {
+    background-color: $theme-color-7 !important;
+  }
+}
+.ant-fullcalendar-value:hover {
+  background-color: lighten($theme-color-1, 20%) !important;
+  color: $button-text-color;
+}
+.ant-fullcalendar-today .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value {
+  box-shadow: 0 0 0 1px $theme-color-1 inset !important;
+}
+.ant-fullcalendar-value {
+  font-weight: bold;
+  width: auto !important;
+}
+.ant-fullcalendar table {
+  height: 200px !important;
+}
+.text-modal-time {
+  margin-top: 0;
+  font-size: 12px;
+}
+.text-modal-time-picker .btn-time-modal,
+.text-modal-time {
+  margin-bottom: 10px;
+  border: 1px solid $theme-color-1;
+  background-color: $background-color;
+}
+.text-modal-time-picker .btn-time-modal:hover {
+  border-color: darken($theme-color-7, 10%);
+}
+.btn-time-modal {
+  padding: 18px 5px !important;
+}
+@media screen and (max-width: 767px) {
+  .btn-time-modal {
+    padding: 10px !important;
+  }
+}
+
+.ant-tabs-tab-active {
+  color: $theme-color-7 !important;
+}
+.ant-tabs-ink-bar {
+  background-color: $theme-color-7 !important;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  &:hover {
+    color: $theme-color-1 !important;
+  }
+}
+.ant-calendar-picker {
+  width: 100%;
+  .ant-calendar-picker-input {
+    height: 45px;
+    border-radius: 2px;
+  }
+}
+
+.ant-time-picker {
+  width: 100% !important;
+}
+.ant-time-picker-input {
+  height: 45px !important;
+  border-radius: 2px !important;
+  line-height: 1.5 !important;
+}
+@media screen and (max-width: 575px) {
+  .ant-modal {
+    width: calc(100% - 30px) !important;
+  }
+}

@@ -1,0 +1,84 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Business/ERP.CoreService.Business.csproj",
+    "projectName": "ERP.CoreService.Business",
+    "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Business/ERP.CoreService.Business.csproj",
+    "outputPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Business/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient/ERP.CoreService.ApiClient.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient/ERP.CoreService.ApiClient.csproj"
+          },
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj"
+          },
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess/ERP.CoreService.DataAccess.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess/ERP.CoreService.DataAccess.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "DotNetCore.NPOI": {
+          "target": "Package",
+          "version": "[1.2.2, )"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel.Core": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "PayPal.SDK.NETCore": {
+          "target": "Package",
+          "version": "[1.9.1.2, )"
+        },
+        "PdfSharpNetStandard": {
+          "target": "Package",
+          "version": "[0.0.14, )"
+        },
+        "TransmitSMSAPI": {
+          "target": "Package",
+          "version": "[1.0.7, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

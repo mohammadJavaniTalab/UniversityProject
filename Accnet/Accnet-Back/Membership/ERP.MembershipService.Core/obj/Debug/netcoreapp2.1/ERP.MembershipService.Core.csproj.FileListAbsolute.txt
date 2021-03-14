@@ -1,0 +1,16 @@
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/ERP.MembershipService.Core.deps.json
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/ERP.MembershipService.Core.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/ERP.MembershipService.Core.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/CoreLib.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/Newtonsoft.Json.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/AutoMapper.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/Quartz.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/System.Configuration.ConfigurationManager.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/bin/Debug/netcoreapp2.1/CoreLib.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.csprojAssemblyReference.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.AssemblyInfoInputs.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.AssemblyInfo.cs
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.csproj.CopyComplete
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/obj/Debug/netcoreapp2.1/ERP.MembershipService.Core.csproj.CoreCompileInputs.cache

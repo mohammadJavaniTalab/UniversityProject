@@ -1,0 +1,11 @@
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.deps.json
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.runtimeconfig.json
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.runtimeconfig.dev.json
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.dll
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/bin/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.pdb
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.csprojAssemblyReference.cache
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.AssemblyInfoInputs.cache
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.AssemblyInfo.cs
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.dll
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.pdb
+/Users/mohammad/RiderProjects/erp-core-service/ERP.CoreService.DataAccess.Generator/obj/Debug/netcoreapp2.1/ERP.CoreService.DataAccess.Generator.csproj.CoreCompileInputs.cache

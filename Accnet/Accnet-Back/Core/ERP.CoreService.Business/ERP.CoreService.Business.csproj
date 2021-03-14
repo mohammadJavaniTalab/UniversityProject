@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.CoreService.ApiClient\ERP.CoreService.ApiClient.csproj" />
+    <ProjectReference Include="..\ERP.CoreService.Core\ERP.CoreService.Core.csproj" />
+    <ProjectReference Include="..\ERP.CoreService.DataAccess\ERP.CoreService.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ERP.MembershipService.ApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\ERP.MembershipService.ApiClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.1.1" />
+    <PackageReference Include="PayPal.SDK.NETCore" Version="1.9.1.2" />
+    <PackageReference Include="PdfSharpNetStandard" Version="0.0.14" />
+    <PackageReference Include="TransmitSMSAPI" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Jobs" />
+  </ItemGroup>
+
+</Project>

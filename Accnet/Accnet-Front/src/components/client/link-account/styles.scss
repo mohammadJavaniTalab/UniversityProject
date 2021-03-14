@@ -1,0 +1,109 @@
+.link-account-wrapper {
+  .link-account-group {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 500px);
+      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABAgMAAABvZVxdAAAAA3NCSVQICAjb4U/gAAAACVBMVEX///9mZmZmZmZz79D2AAAAA3RSTlMA7v8XifUxAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8xNy8yMBvDhcIAAAALSURBVAiZY2BaAgAAqwCnCaPyxgAAAABJRU5ErkJggg==")
+        repeat-x;
+      height: 1px;
+      left: 250px;
+      top: 50%;
+    }
+
+    .left-box,
+    .right-box {
+      width: 250px;
+      height: 250px;
+      display: inline-block;
+      border: 1px solid #c8a6a9;
+      border-radius: 7px;
+      position: relative;
+
+      label{
+        line-height: 100%;
+      }
+     
+          .user-item {
+            border: 1px solid #e8ddde;
+            background-color: #f8ecec;
+            padding: 10px;
+            border-radius: 5px;
+            > span {
+              display: inline-block;
+              &.user-avatar {
+                border: 1px solid #c8a6a9;
+                background-color: #eee;
+                border-radius: 100%;
+                > img {
+                  border-radius: 100%;
+                }
+              }
+            }
+        
+      }
+      @media screen and (min-width:768px){
+       .mt-45{
+         margin-top: 45px;
+       }
+      }
+      
+    }
+    .rounded-10 {
+      border-radius: 10px;
+    }
+
+    .custom-btn {
+      background-color: #fd6b38;
+      color: #fff;
+      &:hover {
+        background-color: darken(#fd6b38, 5%);
+      }
+      .fa {
+        font-size: 18px;
+      }
+    }
+    .custom-input {
+      border-color: #c8a6a9;
+      &:focus {
+        border-color: #fd6b38;
+      }
+    }
+    .left-box {
+      float: left;
+      position: relative;
+      background-color: #f8f8f8;
+    }
+    .right-box {
+      float: right;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .link-account-group {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      .left-box,
+      .right-box {
+        width: 100%;
+        min-height: 140px;
+        height: auto;
+        margin-bottom: 100px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAHAgMAAAC0Is8HAAAAA3NCSVQICAjb4U/gAAAACVBMVEX///9mZmZmZmZz79D2AAAAA3RSTlMA7v8XifUxAAAACXBIWXMAAArwAAAK8AFCrDSYAAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8xNy8yMBvDhcIAAAAPSURBVAiZY3BgaABDMAAAEM4BwY5Gf9cAAAAASUVORK5CYII=")
+          repeat-y center top;
+        width: 1px;
+        top: 0;
+        left: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="PdfSharpNetStandard" Version="0.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.CoreService.Api\ERP.CoreService.Api.csproj" />
+    <ProjectReference Include="..\ERP.CoreService.Core\ERP.CoreService.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETCore.App" Version="2.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MembershipService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\ERP.MembershipService.ApiClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

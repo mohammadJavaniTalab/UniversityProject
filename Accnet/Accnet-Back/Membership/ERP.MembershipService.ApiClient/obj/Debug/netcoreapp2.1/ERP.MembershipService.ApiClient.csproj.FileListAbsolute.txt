@@ -1,0 +1,16 @@
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.deps.json
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/CoreLib.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/Newtonsoft.Json.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/AutoMapper.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/Quartz.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/System.Configuration.ConfigurationManager.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/bin/Debug/netcoreapp2.1/CoreLib.pdb
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.csprojAssemblyReference.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.csproj.CoreCompileInputs.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.AssemblyInfoInputs.cache
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.AssemblyInfo.cs
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.csproj.CopyComplete
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.dll
+/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.ApiClient/obj/Debug/netcoreapp2.1/ERP.MembershipService.ApiClient.pdb

@@ -1,0 +1,59 @@
+@import "../../assets/sass/themes/light-themes.scss";
+
+:root {
+  --theme-color-1: #{$theme-color-1};
+  --theme-color-7: #{$theme-color-7};
+}
+
+.terms-of-service {
+  .top_announcement {
+    background-size: cover;
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 40px;
+  }
+  .uk-background-primary {
+    background-color: #23272f;
+  }
+  .uk-navbar {
+    display: flex;
+    position: relative;
+    letter-spacing: 0.04rem;
+  }
+  .logo {
+    width: 100px;
+  }
+  .uk-navbar-left {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .uk-navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .uk-navbar-nav {
+    margin-left: 40px !important;
+    text-transform: uppercase !important;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .text-color {
+      color: white;
+      &:hover {
+        color: $theme-color-7;
+      }
+    }
+  }
+  .height-50 {
+    height: 50px;
+  }
+}

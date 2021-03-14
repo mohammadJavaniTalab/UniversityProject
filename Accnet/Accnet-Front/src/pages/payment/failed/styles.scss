@@ -1,0 +1,25 @@
+.payment-failed {
+  .failed-icon {
+    font-size: 6rem;
+    position: absolute;
+    top: -4rem;
+    left: calc(50% - 3rem);
+  }
+  @media screen and (max-width: 767px) {
+    .width-container {
+      width: 100% !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .width-container {
+      width: 80% !important;
+    }
+  }
+
+  @media screen and (min-width: 901px) {
+    .width-container {
+      width: 50% !important;
+    }
+  }
+}

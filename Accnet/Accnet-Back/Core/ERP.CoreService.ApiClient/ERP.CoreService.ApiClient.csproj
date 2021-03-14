@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\CoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ERP.MembershipService.ApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\erp-libs\ERP.MembershipService.ApiClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.1.1" />
+    <PackageReference Include="PdfSharpNetStandard" Version="0.0.14" />
+  </ItemGroup>
+
+</Project>

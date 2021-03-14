@@ -1,0 +1,79 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Api/ERP.MembershipService.Api.csproj",
+    "projectName": "ERP.MembershipService.Api",
+    "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Api/ERP.MembershipService.Api.csproj",
+    "outputPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Api/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohammad/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Business/ERP.MembershipService.Business.csproj": {
+            "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Business/ERP.MembershipService.Business.csproj"
+          },
+          "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/ERP.MembershipService.Core.csproj": {
+            "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/ERP.MembershipService.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "FluentValidation.AspNetCore": {
+          "target": "Package",
+          "version": "[8.6.1, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

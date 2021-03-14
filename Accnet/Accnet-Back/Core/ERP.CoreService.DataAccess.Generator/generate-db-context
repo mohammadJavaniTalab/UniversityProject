@@ -1,0 +1,3 @@
+dotnet ef dbcontext scaffold "Data Source=35.182.151.91;Initial Catalog=ERP.Core;Persist Security Info=True;User ID=erp-user;Password=ASDqwe123;Connection Timeout=20;Max Pool Size=500;Pooling=true;" Microsoft.EntityFrameworkCore.SqlServer -o EFModels -f -c ErpCoreDBContext
+
+mamad mac : sudo dotnet ef dbcontext scaffold "Data Source=35.182.151.91;Initial Catalog=ERP.Core;Persist Security Info=True;User ID=erp-user;Password=ASDqwe123;Connection Timeout=20;Max Pool Size=500;Pooling=true;" Microsoft.EntityFrameworkCore.SqlServer -o EFModels -f -c ErpCoreDBContext

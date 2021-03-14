@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ERP.CoreService.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ERP.CoreService.Api.Middlewares.OnExceptionMiddleware">
+            <summary>
+             OnExceptionMiddleware , Produce Custom message during Internal Server Exception
+            </summary>
+        </member>
+        <member name="M:ERP.CoreService.Api.Middlewares.OnExceptionMiddleware.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

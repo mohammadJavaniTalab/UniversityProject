@@ -1,0 +1,41 @@
+.payment-success {
+  
+  .success-icon {
+    font-size: 2rem;
+    // position: absolute;
+    // top: -4rem;
+    left: calc(50% - 3rem);
+  }
+
+  .success-payment-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .success-payment-text {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .width-container {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .width-container {
+      width: 80%;
+    }
+  }
+
+  @media screen and (min-width: 901px) {
+    .width-container {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient.Generator/ERP.CoreService.ApiClient.Generator.csproj",
+    "projectName": "ERP.CoreService.ApiClient.Generator",
+    "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient.Generator/ERP.CoreService.ApiClient.Generator.csproj",
+    "outputPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.ApiClient.Generator/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Api/ERP.CoreService.Api.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Api/ERP.CoreService.Api.csproj"
+          },
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "PdfSharpNetStandard": {
+          "target": "Package",
+          "version": "[0.0.14, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

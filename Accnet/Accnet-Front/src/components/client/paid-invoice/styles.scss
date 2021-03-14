@@ -1,0 +1,58 @@
+.dashboard-paid-invoice {
+  .w-auto {
+    width: auto;
+  } 
+}
+.invoice-table-wrapper {
+  table {
+    margin-bottom: 0;
+    
+    thead {
+      background-color: #fef5f6;
+    }
+    td,
+    th {
+      vertical-align: middle;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .invoice-table-wrapper {
+    overflow-x: auto;
+    table {
+      width: 700px;
+    }
+  }
+}
+
+.des-cont {
+  height: 70px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+  direction: ltr;
+}
+.invoice-title {
+  display: inline-block;
+  margin-right: 50px;
+}
+.nav-tabs-wrapper {
+  display: inline-block;
+
+  .nav-tabs {
+    border-bottom: 0;
+    .nav-link {
+      color: #666;
+      &.active {
+        color: #222;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .input-custom-width {
+    width: 100% !important;
+  }
+}

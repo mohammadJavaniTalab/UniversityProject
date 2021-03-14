@@ -1,0 +1,69 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Business/ERP.MembershipService.Business.csproj",
+    "projectName": "ERP.MembershipService.Business",
+    "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Business/ERP.MembershipService.Business.csproj",
+    "outputPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Business/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohammad/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/ERP.MembershipService.Core.csproj": {
+            "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.Core/ERP.MembershipService.Core.csproj"
+          },
+          "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess/ERP.MembershipService.DataAccess.csproj": {
+            "projectPath": "/Users/mohammad/RiderProjects/erp-membership-service/ERP.MembershipService.DataAccess/ERP.MembershipService.DataAccess.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Microsoft.IdentityModel.Tokens": {
+          "target": "Package",
+          "version": "[5.4.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[5.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

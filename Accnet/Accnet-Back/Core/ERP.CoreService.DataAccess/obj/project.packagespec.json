@@ -1,0 +1,73 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess/ERP.CoreService.DataAccess.csproj",
+    "projectName": "ERP.CoreService.DataAccess",
+    "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess/ERP.CoreService.DataAccess.csproj",
+    "outputPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj"
+          },
+          "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj": {
+            "projectPath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.DataAccess.Generator/ERP.CoreService.DataAccess.Generator.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.11, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.1.11, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[2.1.11, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.12, )",
+          "autoReferenced": true
+        },
+        "PdfSharpNetStandard": {
+          "target": "Package",
+          "version": "[0.0.14, )"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.5.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

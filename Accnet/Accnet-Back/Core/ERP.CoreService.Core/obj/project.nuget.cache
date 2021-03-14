@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "S4mAS9wHS1g0yKNnoPKuj3m2Hi9O1/+uzRuSUYEMGgB4SlUKDadx1hSEUYWE9kNY4pgZfm7e109Vjy2uJAUqGQ==",
+  "success": true,
+  "projectFilePath": "/Users/mohamad/Downloads/Archive/erp-core-service/ERP.CoreService.Core/ERP.CoreService.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.configuration/2.1.1/microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.1/microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.configuration.binder/2.1.1/microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.1/microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.http/2.1.1/microsoft.extensions.http.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.logging/2.1.1/microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.1/microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.options/2.1.1/microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.extensions.primitives/2.1.1/microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/pdfsharpnetstandard/0.0.14/pdfsharpnetstandard.0.0.14.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/system.drawing.common/4.5.0/system.drawing.common.4.5.0.nupkg.sha512",
+    "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+    "/Users/mohamad/Downloads/dotnet-sdk-2.2.207-osx-x64/sdk/NuGetFallbackFolder/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "/Users/mohamad/.nuget/packages/system.text.encoding.codepages/4.5.0/system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

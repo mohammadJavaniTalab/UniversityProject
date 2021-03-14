@@ -1,0 +1,11 @@
+USE [ERP.Core]
+GO
+
+IF (TYPE_ID('IdTableType') IS NOT NULL)
+    DROP TYPE IdTableType
+GO
+
+CREATE TYPE IdTableType AS TABLE
+(
+    Id UNIQUEIDENTIFIER
+)

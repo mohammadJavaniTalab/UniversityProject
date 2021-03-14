@@ -1,0 +1,284 @@
+@import "./themes//light-themes.scss";
+
+:root {
+  --theme-color-1: #{$theme-color-1};
+  --theme-color-2: #{$theme-color-2};
+  --theme-color-3: #{$theme-color-3};
+  --theme-color-4: #{$theme-color-4};
+  --theme-color-5: #{$theme-color-5};
+  --theme-color-6: #{$theme-color-6};
+  --theme-color-1-10: #{rgba($theme-color-1, 0.1)};
+  --theme-color-2-10: #{rgba($theme-color-2, 0.1)};
+  --theme-color-3-10: #{rgba($theme-color-3, 0.1)};
+  --theme-color-4-10: #{rgba($theme-color-4, 0.1)};
+  --theme-color-5-10: #{rgba($theme-color-5, 0.1)};
+  --theme-color-6-10: #{rgba($theme-color-6, 0.1)};
+
+  --primary-color: #{$primary-color};
+  --foreground-color: #{$foreground-color};
+  --separator-color: #{$separator-color};
+}
+
+@font-face {
+  font-family: "anoxic";
+  src: url("../fonts/anoxic/AnoxicSC-Medium.eot") format("eot"),
+    url("../fonts/anoxic/AnoxicSC-Medium.woff2") format("woff2"),
+    url("../fonts/anoxic/AnoxicSC-Medium.woff") format("woff"),
+    url("../fonts/anoxic/AnoxicSC-Medium.ttf") format("ttf");
+}
+
+.main-content-padding {
+  padding: 130px 0 30px 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+.border-style {
+  border: 1px solid #c8a6a9;
+  box-shadow: none;
+}
+
+.grid-btn {
+  padding: 0.7rem;
+  height: auto;
+  line-height: 0;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-content-padding {
+    padding-right: auto;
+    padding-left: auto;
+  }
+}
+.btn-icon {
+  border: 0;
+  background: none;
+  line-height: 0;
+  width: 20px;
+  padding: 0;
+  &:hover {
+    color: #922c88;
+  }
+  + span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &:disabled {
+    // color: lighten($muted-color, 5%) !important;
+    color: lighten(#909090, 5%) !important;
+    cursor: default !important;
+  }
+}
+
+.header {
+  > .container {
+    min-height: 200px;
+  }
+}
+
+.card {
+  border-radius: 20px !important;
+}
+
+.add-item-btn {
+  background-color: $foreground-color;
+  font-weight: bold;
+  font-size: 1rem !important;
+  border: 0;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+  > span {
+    margin-right: 10px !important;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .add-item-btn {
+    margin-top: -30px;
+  }
+}
+
+.crud-theme-one {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 20px;
+  padding: 25px;
+
+  thead {
+    box-shadow: inset 0 -3px 0 0 $separator-color;
+    th,
+    td {
+      text-align: center;
+    }
+  }
+  tbody {
+    tr {
+      box-shadow: inset 0 -1px 0 0 $separator-color;
+      &:last-child {
+        box-shadow: none;
+      }
+      &:hover {
+        box-shadow: inset 0 0 0 1px $theme-color-1;
+      }
+      &:active {
+        box-shadow: inset 0 0 0 2px $theme-color-1;
+      }
+    }
+    td {
+      line-height: 35px;
+      text-align: center;
+      .glyph-icon {
+        position: relative;
+        top: 4px;
+        font-size: 20px;
+      }
+      .btn {
+        line-height: 0;
+        .glyph-icon {
+          top: 0;
+        }
+      }
+    }
+  }
+
+  .table th,
+  .table td {
+    border: 0;
+
+    vertical-align: middle;
+  }
+
+  @media screen and (max-width: 767px) {
+    > table {
+      width: 780px;
+    }
+  }
+}
+.grid-title {
+  font-size: 22px;
+  color: $theme-color-1;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.theme-one-grid {
+  margin: 0;
+  tbody {
+    td {
+      line-height: 25px;
+    }
+    td {
+      .btn {
+        padding: 5px 15px;
+        line-height: 0;
+        min-width: 60px;
+        .glyph-icon {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  thead {
+    // background-color: $foreground-color !important;
+    // color: $primary-color;
+    background-color: $foreground-color !important;
+    color: $primary-color;
+  }
+}
+
+.inner-title {
+  font-size: 25px;
+}
+
+.input-custom-width {
+  width: 250px;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.nav-tabs .nav-link.active::before,
+.nav-tabs .nav-item.show .nav-link::before {
+  bottom: 0;
+  top: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #fe6b38;
+}
+
+fieldset {
+  border: 1px solid #c8a6a9 !important;
+  padding: 20px !important;
+
+  legend {
+    width: auto;
+    line-height: 0;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.t-color {
+  color: #4556ac !important;
+}
+
+.co-name-box {
+  position: absolute;
+  font-family: "anoxic";
+  font-size: 100px;
+  color: #fff;
+  line-height: 80px;
+  width: 50%;
+  left: 0;
+  top: calc(50% - 80px);
+  text-align: center;
+}
+
+// =============================== ant design ============
+
+.ant-dropdown-menu {
+  margin-top: 23px !important;
+  border: 1px solid $theme-color-1 !important;
+}

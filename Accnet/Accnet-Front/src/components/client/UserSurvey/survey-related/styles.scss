@@ -1,0 +1,66 @@
+@import "../../../../assets/sass/themes/light-themes.scss";
+
+:root {
+  --theme-color-1: #{$theme-color-1};
+  --theme-color-2: #{$theme-color-2};
+  --theme-color-3: #{$theme-color-3};
+  --theme-color-4: #{$theme-color-4};
+  --theme-color-5: #{$theme-color-5};
+  --theme-color-6: #{$theme-color-6};
+  --theme-color-1-10: #{rgba($theme-color-1, 0.1)};
+  --theme-color-2-10: #{rgba($theme-color-2, 0.1)};
+  --theme-color-3-10: #{rgba($theme-color-3, 0.1)};
+  --theme-color-4-10: #{rgba($theme-color-4, 0.1)};
+  --theme-color-5-10: #{rgba($theme-color-5, 0.1)};
+  --theme-color-6-10: #{rgba($theme-color-6, 0.1)};
+
+  --primary-color: #{$primary-color};
+  --foreground-color: #{$foreground-color};
+  --separator-color: #{$separator-color};
+}
+
+.q-step1 {
+  .custom-btn {
+    background-color: #f8ecec !important;
+    border-radius: 10px;
+    padding: 7px 10px;
+    min-width: 110px;
+    border-color: transparent;
+
+    &.selected-btn {
+      border: 1px solid $theme-color-7;
+    }
+
+    &:hover {
+      color: $theme-color-7;
+    }
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $theme-color-7;
+    border-color: $theme-color-7;
+  }
+  .question {
+    font-size: 25px;
+  }
+}
+
+.client-survey-list {
+  .card {
+    border-radius: 0px !important;
+  }
+  .card-header {
+    background-color: $theme-color-1;
+    color: white;
+  }
+}
+
+.calculate-my-taxes {
+  .ant-modal-close-x {
+    .anticon {
+      background-color: $theme-color-1 !important;
+      border-radius: 50%;
+      padding: 3px;
+    }
+  }
+}

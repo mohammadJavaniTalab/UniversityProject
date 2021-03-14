@@ -1,0 +1,52 @@
+import { UserModel } from "../../user/Type";
+
+export const initialUserModel: UserModel = {
+  tuitionFee : false,
+  creationDate: "",
+  username: "",
+  avatarId: "",
+  password: "123",
+  receipts: [],
+  extraFiles : [],
+  assessments : [],
+  city : "",
+  poBox : "",
+  completedProfile : false,
+  province : "",
+  unitNumber : "",
+  maritalStatus: 1,
+  firstname: "",
+  lastname: "",
+  email: "",
+  mobile: "",
+  dateOfBirth: "",
+  postalCode: "", 
+  address: "",
+  sinNumber: "",
+  latitude: 0,
+  longtitude: 0,
+  linkStatus: 0,
+  status: 0,
+  maritualStatus: 0,
+  enabled: false,
+  gender: "Mr",
+  organization: {
+    name: "",
+    tier: 0,
+    enabled: false,
+    user: "",
+    id: ""
+  },
+  role: {
+    name: "",
+    feature: [],
+    id: "6c98c773-5cf8-4993-b78b-32af01858111"
+  },
+  hasDoneSurvey: false,
+  unreadMessages: 0,
+  unpaidInvoices: 0,
+  uncheckedTaxes: 0,
+  uncheckedRequestLinks: 0,
+  id: "",
+  relationType : ""
+};

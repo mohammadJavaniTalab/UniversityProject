@@ -1,0 +1,39 @@
+.profile-component{
+  .profile-content{
+    position: relative;
+  }
+  .padding-layout{
+    padding: 0% 10%
+  }
+  .user-profile{
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  .profile-data-content{
+    padding: 30px 22px 22px 22px;
+  }
+  .map-profile{
+    height: 202px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 767px) {
+    .user-profile{
+      top: -50px;
+      left: calc(50% - 50px);
+      width: 100px;
+      height: 100px;
+    }
+    .padding-layout{
+      padding: 0% 2%
+    }
+  }
+}  

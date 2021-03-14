@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FB39D398-4367-4516-980F-2A904A4D9E7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{95E0129D-820C-43E8-A276-DEA2CF32D4B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{BAA2FAE0-6756-45EB-B705-B406CCCAA117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.DataAccess.Generator", "ERP.MembershipService.DataAccess.Generator\ERP.MembershipService.DataAccess.Generator.csproj", "{3D432B26-D93B-4D9A-A050-72FF621CC390}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.DataAccess", "ERP.MembershipService.DataAccess\ERP.MembershipService.DataAccess.csproj", "{8D0E287B-6A35-44AA-B206-7D6FA8E804E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.Business", "ERP.MembershipService.Business\ERP.MembershipService.Business.csproj", "{61606B06-C630-4174-AC17-46F0C5725D38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C4DA02BA-E272-4B14-8B83-9F5210918DE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.Api", "ERP.MembershipService.Api\ERP.MembershipService.Api.csproj", "{0F3934D9-BF55-4283-A17D-E86E75B2F64E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiClient", "ApiClient", "{ADACD6C0-FB46-475E-9B1D-D8B6CD23B873}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.ApiClient.Generator", "ERP.MembershipService.ApiClient.Generator\ERP.MembershipService.ApiClient.Generator.csproj", "{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.ApiClient", "ERP.MembershipService.ApiClient\ERP.MembershipService.ApiClient.csproj", "{9C4424A5-70D5-4240-8BA5-A636F47BF4D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.MembershipService.Core", "ERP.MembershipService.Core\ERP.MembershipService.Core.csproj", "{AF511369-A581-4198-B19B-9E09CACB8F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D432B26-D93B-4D9A-A050-72FF621CC390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D432B26-D93B-4D9A-A050-72FF621CC390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D432B26-D93B-4D9A-A050-72FF621CC390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D432B26-D93B-4D9A-A050-72FF621CC390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0E287B-6A35-44AA-B206-7D6FA8E804E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0E287B-6A35-44AA-B206-7D6FA8E804E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0E287B-6A35-44AA-B206-7D6FA8E804E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0E287B-6A35-44AA-B206-7D6FA8E804E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61606B06-C630-4174-AC17-46F0C5725D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61606B06-C630-4174-AC17-46F0C5725D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61606B06-C630-4174-AC17-46F0C5725D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61606B06-C630-4174-AC17-46F0C5725D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3934D9-BF55-4283-A17D-E86E75B2F64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3934D9-BF55-4283-A17D-E86E75B2F64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3934D9-BF55-4283-A17D-E86E75B2F64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3934D9-BF55-4283-A17D-E86E75B2F64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4424A5-70D5-4240-8BA5-A636F47BF4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4424A5-70D5-4240-8BA5-A636F47BF4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4424A5-70D5-4240-8BA5-A636F47BF4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4424A5-70D5-4240-8BA5-A636F47BF4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF511369-A581-4198-B19B-9E09CACB8F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF511369-A581-4198-B19B-9E09CACB8F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF511369-A581-4198-B19B-9E09CACB8F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF511369-A581-4198-B19B-9E09CACB8F42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D432B26-D93B-4D9A-A050-72FF621CC390} = {95E0129D-820C-43E8-A276-DEA2CF32D4B3}
+		{8D0E287B-6A35-44AA-B206-7D6FA8E804E3} = {95E0129D-820C-43E8-A276-DEA2CF32D4B3}
+		{61606B06-C630-4174-AC17-46F0C5725D38} = {BAA2FAE0-6756-45EB-B705-B406CCCAA117}
+		{0F3934D9-BF55-4283-A17D-E86E75B2F64E} = {C4DA02BA-E272-4B14-8B83-9F5210918DE2}
+		{4665CA6F-F66E-42D6-8DB6-5E11CDA4873E} = {ADACD6C0-FB46-475E-9B1D-D8B6CD23B873}
+		{9C4424A5-70D5-4240-8BA5-A636F47BF4D3} = {ADACD6C0-FB46-475E-9B1D-D8B6CD23B873}
+		{AF511369-A581-4198-B19B-9E09CACB8F42} = {FB39D398-4367-4516-980F-2A904A4D9E7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CEC4918-5AD6-41BD-8BFA-8C8C9CFB8522}
+	EndGlobalSection
+EndGlobal
